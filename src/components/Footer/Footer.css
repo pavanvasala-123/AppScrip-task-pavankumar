@@ -1,0 +1,116 @@
+.footer{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    
+}
+.footer-top{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid white;
+    padding-bottom: 20px;
+    
+}
+.footer-bottom{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.footer-top-left-container{
+    text-align: left;
+}
+.footer-top-right-container{
+    text-align: left;
+}
+.footer-top-left-container p {
+        margin-bottom: 10px; 
+        
+}
+h3{
+    margin-bottom: 10px;
+}
+.footer-top-left-container input{
+    height: 40px;
+    border-radius: 5px;
+    padding: 5px;
+}
+button{
+    height: 40px;
+    color: gray;
+    border: 1px solid gray;
+    width: 100px;
+    border-radius: 5px;
+    margin-left: 20px;
+    background-color: transparent;
+
+}
+.footer-top-right-container p {
+    margin-bottom: 10px;
+}
+
+
+.footer-metta-muse-conatiner p {
+    margin: 10px;
+}
+.footer-quicklinks-conatiner p{
+    margin: 10px;
+}
+.footer-top-right-container{
+    text-align: left;
+}
+.footer-metta-muse-conatiner{
+    text-align: left;
+}
+
+.footer-quicklinks-conatiner{
+    text-align: left;
+}
+
+
+
+@media (max-width:700px){
+    .footer{
+       text-align:center;
+    }
+    .footer-top{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        border: none;
+    }
+
+    .footer-top-left-container{
+        margin: 20px;
+    }
+    .footer-top-right-container{
+        margin: 20px;
+        text-align: center;
+    }
+    .footer-bottom{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-top: 20px;
+        
+    }
+    .footer-top-left-container{
+        border-bottom: 1px solid white;
+        padding-bottom:10px;
+        text-align: center;
+    }
+    .footer-top-right-container{
+        border-bottom: 1px solid white;
+        padding-bottom:10px;
+
+    }
+    .footer-metta-muse-conatiner {
+        border-bottom: 1px solid white;
+        padding-bottom:10px;
+        text-align: center;
+    }
+    .footer-quicklinks-conatiner{
+        border-bottom: 1px solid white;
+        padding-bottom:10px;
+        text-align: center;
+    }
+}

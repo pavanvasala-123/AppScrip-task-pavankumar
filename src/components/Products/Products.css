@@ -1,0 +1,159 @@
+.desktop-filters-headings-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    border-left: none;
+    border-right: none;
+    margin:0 96px;
+}
+.desktop-filters-headings-container span{
+    display: flex;
+    align-items: center;
+    
+}
+.desktop-filters-headings-container p{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.mobile-filters-headings-container{
+    visibility: hidden;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+    border: 1px solid rgb(226, 222, 222);
+    border-left: none;
+    border-right: none;
+    cursor: pointer;
+}
+
+.mobile-filters-headings-container p {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.products-and-fliters-container{
+    display: flex;
+    margin: 0 92px;
+}
+
+.filters-container-for-desktop{
+    width: 300px;
+    /* border: 1px solid black; */
+    margin: 10px;
+}
+.sorting-dropdown{
+    display: flex;
+    flex-direction: column;
+}
+
+.mobile-filters-container{
+    display: none;
+    z-index: 999;
+  position: fixed;
+
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+.mobile{
+    background-color:white;
+    color: black;
+    box-shadow: ;
+}
+.product-cards-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 auto; 
+}
+
+.filters-container-for-desktop span{
+    display: flex;
+    border: 1px solid gray;
+    padding: 20px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    margin: 5px;
+}
+.filters-container-for-desktop span input {
+    margin-right: 5px;
+}
+
+
+/* filters css */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Style the dropdown header (text with arrow) */
+  .dropdown-header { /* background-color: #f1f1f1;
+    */
+    color: #333;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  /* Style the dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 200px;
+    z-index: 1;
+  }
+  
+  /* Style the checkboxes and labels */
+  .dropdown-content label {
+    display: block;
+    padding: 8px 12px;
+    cursor: pointer;
+  }
+  
+  /* Show dropdown content when the header is clicked */
+  .show {
+    display: block;
+  }
+
+
+
+
+
+
+
+
+
+
+@media (max-width:700px) {
+    .mobile-filters-headings-container{
+        
+        visibility: visible;
+    }
+    .desktop-filters-headings-container{
+        display: flex;
+        align-items: center;
+        display: none;
+    }
+    .filters-container-for-desktop{
+        width: 300px;
+        border: 1px solid black;
+        margin: 10px;
+        display: none;
+
+    }
+    .products-and-fliters-container{
+        display: flex;
+        margin: 20px auto;
+        width: 100%;
+    }
+    .product-cards-container{
+        width: 100%;
+       
+    }
+    
+    
+}
